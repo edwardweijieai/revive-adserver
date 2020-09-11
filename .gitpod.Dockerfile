@@ -1,6 +1,6 @@
 FROM krish512/revive:5.0.2
 
-USER gitpod
+USER root
 
 RUN apt-get update \
     && apt-get install apache2 mysql-server-5.6 php5 php5-mysql unzip \
